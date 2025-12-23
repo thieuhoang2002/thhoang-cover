@@ -1,3 +1,8 @@
+// src/types.ts
+export interface LyricLine {
+  time: number;
+  text: string;
+}
 
 export interface Song {
   id: string;
@@ -6,6 +11,7 @@ export interface Song {
   coverUrl: string;
   audioUrl: string;
   duration?: string;
+  lrcUrl?: string; // <-- Đổi từ lyrics[] thành đường dẫn file .lrc
 }
 
 export interface PlayerState {

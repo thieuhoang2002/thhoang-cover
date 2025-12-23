@@ -15,7 +15,8 @@ export const songs: Song[] = [
     artist: 'thhoang cover',
     coverUrl: 'https://picsum.photos/seed/cover2/600/600',
     audioUrl: 'music/ban-nhac-cuoi-cho-em.wav',
-    duration: '03:13'
+    duration: '03:13',
+    lrcUrl: 'lyrics/ban-nhac-cuoi-cho-em.lrc' // <-- Chỉ cần điền link file vào đây
   },
   {
     id: '3',
